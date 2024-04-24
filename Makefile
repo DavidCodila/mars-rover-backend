@@ -4,7 +4,7 @@ prepare:
 clean: prepare
 	rm -rf dist/*
 
-dist/index.js: src/controllers/index.tsx
+dist/index.js: src/controllers/index.ts
 	bun build $< --outdir $@
 
 build: clean dist/index.js

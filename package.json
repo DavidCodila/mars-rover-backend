@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun run src/controllers/index.ts",
-    "build": "bun build ./src/controllers/index.tsx --outdir ./build"
+    "build": "bun build ./src/controllers/index.ts --outdir ./build"
   },
   "devDependencies": {
     "@types/bun": "latest"
