@@ -16,7 +16,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@types/lodash": "^4.17.0",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
   }
 }

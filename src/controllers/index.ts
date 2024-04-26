@@ -12,7 +12,7 @@ const jsonParser = bodyParser.json();
 
 app.post("/start-game", jsonParser, createGameService());
 
-app.get("/getMapSize", jsonParser, returnMapSizeService());
+app.get("/getMapSize/:accountID", jsonParser, returnMapSizeService());
 
 app.listen(80, function () {
   console.log("CORS-enabled web server listening on port 80");
